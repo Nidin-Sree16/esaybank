@@ -1,0 +1,41 @@
+
+@media (max-width: 767px) {
+  body{
+    text-align: center;
+  }
+  .social {
+    padding: 10px 0 40px 184px;
+    padding-left: 190px;
+  }
+  .header-2{
+    background-image: url("images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    order: 1;
+    background-position: -7px -55px;
+
+  }
+  .nav-link:hover,
+  .nav-link:active{
+      border-bottom: 2px solid transparent;
+
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    text-align: center;
+  }
+  .header-1{
+    order: 2;
+    text-align: center;
+    left: 118px;
+  }
+  .header-img{
+    top: -230px;
+    left: 13px;
+  }
+  .marg-lef{
+    margin-left: 43px;
+  }
+  .pad-lef{
+    padding-left: 30px;
+  }
+}
